@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Freak - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Job Freak</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>📩 Contact Us</h2>
+    <p>Have questions? We’d love to hear from you.</p>
+</section>
+
+<section style="display: flex; justify-content: center; padding: 40px 20px;">
+    <div style="background: white; padding: 30px; width: 100%; max-width: 500px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        
+        <h3 style="margin-bottom: 20px; color: #203a43;">Send Us a Message</h3>
+
+        <form onsubmit="return showMessage()">
+            
+            <label><strong>Name</strong></label><br>
+            <input type="text" required style="width:100%; padding:8px; margin:8px 0 15px; border-radius:5px; border:1px solid #ccc;"><br>
+
+            <label><strong>Email</strong></label><br>
+            <input type="email" required style="width:100%; padding:8px; margin:8px 0 15px; border-radius:5px; border:1px solid #ccc;"><br>
+
+            <label><strong>Message</strong></label><br>
+            <textarea rows="5" required style="width:100%; padding:8px; margin:8px 0 15px; border-radius:5px; border:1px solid #ccc;"></textarea><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </div>
+</section>
+
+<script>
+    function showMessage() {
+        alert("Thank you for contacting Job Freak!");
+        return false;
+    }
+</script>
+
+<footer>
+    <p>© 2026 Job Freak | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
