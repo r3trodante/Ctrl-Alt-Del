@@ -113,6 +113,35 @@ nav a:hover {
 form label {
     font-weight: bold;
 }
+.team {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-card {
+    background: #f4f6f8;
+    width: 220px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.team-card h3 {
+    margin: 0;
+}
+
+.team-card p {
+    color: #555;
+}
 
 form input,
 form textarea {
